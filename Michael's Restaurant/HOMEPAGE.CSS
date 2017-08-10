@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  text-align: center;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
+}
+
+.top {
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 200ms ease;
+}
+
+.top:hover {
+  font-size: 30px;
+  color: red;
+}
+
+#logo {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+  color: #FCA311;
+  transition: 200ms ease;
+}
+
+.cover {
+  height: 750px;
+  position: relative;
+  top: 100px;
+  left: 0;
+  background: url("https://static.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg") no-repeat center bottom;
+  background-size: cover;
+  background-position: fixed;
+}
+
+.cover-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 190px;
+  width: 70%;
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 70px;
+  background: white;
+  position: relative;
+  top: 105px;
+}
+
+.social {
+  height: 50px;
+  margin-right: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#social img{
+  height: 50px;
+  margin-bottom: 20px;
+}

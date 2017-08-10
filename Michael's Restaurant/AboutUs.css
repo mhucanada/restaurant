@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
+}
+
+.top {
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 200ms ease;
+}
+
+.top:hover {
+  font-size: 30px;
+  color: red;
+}
+
+#logo {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+  color: #FCA311;
+  transition: 200ms ease;
+}
+
+#cover {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(198, 198, 198);
+  background-attachment: fixed;
+  position: relative;
+  top: 100px;
+  margin: 0, auto;
+}
+
+
+.body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  top: 40px;
+  position: relative;
+  width: 90%;
+  background-color: inherit;
+}
+
+.heading {
+  padding: 20px 0px 0px 20px;
+}
+
+.pic_food {
+  top: 80px;
+  height: 900px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 43px;
+  background: url("https://static.pexels.com/photos/248880/pexels-photo-248880.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: scroll;
+  position: relative;
+  text-align: center;
+}
+
+.food-content {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 27px;
+  padding: 150px 0px 0px 400px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Courgette', cursive;
+  font-weight: lighter;
+  color: rgb(1, 6, 112);
+  font-size: 40px;
+}
+
+
+
+p {
+  font-family: 'Comfortaa', sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 3em;
+  color: rgb(118, 1, 145);
+}
+
+.delivery {
+  position: relative;
+  top: 80px;
+  width: 60%;
+  box-sizing: border-box;
+  margin-top: 160px;
+  padding: 50px 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#delivery {
+  font-family: 'Poiret One', monospace;
+  font-size: 30px;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 70px;
+  background: white;
+  position: relative;
+  top: px;
+}
+
+.social {
+  height: 50px;
+  margin-right: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#social img{
+  height: 50px;
+  margin-bottom: 20px;
+}
